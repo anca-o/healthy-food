@@ -6,8 +6,15 @@ body {
 .container {
   /*margin: 0px 150px 0px 150px */
   background-color: white;
-  height: 750px;
+  height: 800px;
   width: 900px;
+}
+.header .logo {
+  float: left;
+  padding-left: 20px;
+}
+.header-photo {
+  padding-right: 20px;
 }
 /*.container .image {
   padding: 100px 100px 0 0px;
@@ -16,7 +23,7 @@ body {
 }*/
 #border {
   border-bottom: #66cc33 5px solid;
-  margin: 0 20px 0 20px;
+  margin: 5px 20px 10px 20px;
   border-radius: 10px;
 }
 /*.container .menu {
@@ -42,7 +49,7 @@ a:hover {
   width: 350px;
   height: 250px;
   padding: 15px;
-  margin: 5px 10px 5px 35px;
+  margin: 5px 10px 20px 35px;
   border: 1px solid #66cc33;
   border-radius: 5px;
   font-family: Tahoma;
