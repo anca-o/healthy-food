@@ -6,7 +6,7 @@ body {
 .container {
   /*margin: 0px 150px 0px 150px */
   background-color: white;
-  height: 800px;
+  height: 850px;
   width: 900px;
 }
 .header .logo {
@@ -24,7 +24,25 @@ body {
 #border {
   border-bottom: #66cc33 5px solid;
   margin: 5px 20px 10px 20px;
-  border-radius: 10px;
+}
+.pagination {
+  text-align: right;
+  padding: 0 20px 0 10px;
+}
+.pagination ul{
+    display: inline-block;
+}
+.pagination li {display: inline;}
+.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+.pagination li a:hover:not(.active) {background-color: #ddd;}
+.pagination li a {
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    font-size: 15px;:
 }
 /*.container .menu {
   background: inherit;
